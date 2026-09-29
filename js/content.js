@@ -48,9 +48,9 @@ const SITE_CONTENT = {
 
   // Key Performance Indicators / Stats Bar
   stats: [
-    { value: "5,000", suffix: "+", label: "client deployments worldwide" },
-    { value: "200", suffix: "+", label: "countries and regions for SMS" },
-    { value: "850", suffix: "+", label: "interconnected operators" },
+    { value: "23", suffix: "", label: "client deployments worldwide" },
+    { value: "55", suffix: "", label: "countries and regions for SMS" },
+    { value: "17", suffix: "", label: "interconnected operators" },
     { value: "24/365", suffix: "", label: "monitoring and support" }
   ],
 
@@ -93,8 +93,8 @@ const SITE_CONTENT = {
       slug: "sms",
       cat: "SMS / WHOLESALE SMS",
       title: "International SMS",
-      lead: "Direct delivery to 200+ countries and regions over 850+ operator connections. A high-deliverability messaging platform provided by a company with 5,000+ client deployments worldwide.",
-      summary: "Direct delivery to 200+ countries and regions over 850+ operator routes. Reliable, low-latency messaging for enterprise OTP and notifications.",
+      lead: "Direct delivery to 55 countries and regions over 17 operator connections. A high-deliverability messaging platform provided by a company with 23 client deployments worldwide.",
+      summary: "Direct delivery to 55 countries and regions over 17 operator routes. Reliable, low-latency messaging for enterprise OTP and notifications.",
       uses: [
         "Verification (OTP)",
         "Booking and delivery notifications",
@@ -107,11 +107,11 @@ const SITE_CONTENT = {
         { t: "Real-time delivery reports", d: "Track delivery status in real time to detect failures and design retries." }
       ],
       specs: [
-        { k: "Coverage", v: "200+ countries and regions" },
-        { k: "Operators", v: "850+ interconnected operators" },
+        { k: "Coverage", v: "55 countries and regions" },
+        { k: "Operators", v: "17 interconnected operators" },
         { k: "Interface", v: "SMPP / REST API" },
         { k: "Tracking", v: "Delivery reports and status callbacks" },
-        { k: "Track record", v: "5,000+ client deployments worldwide (all services)" }
+        { k: "Track record", v: "23 client deployments worldwide (all services)" }
       ]
     },
     smsone: {
@@ -168,7 +168,7 @@ const SITE_CONTENT = {
       slug: "api",
       cat: "CLOUD SMS & FAX API",
       title: "SMS & Fax API",
-      lead: "REST APIs you can integrate in a few lines of code — a dependable delivery platform provided by a company with 5,000+ client deployments worldwide, adopted above all for app SMS verification (OTP).",
+      lead: "REST APIs you can integrate in a few lines of code — a dependable delivery platform provided by a company with 23 client deployments worldwide, adopted above all for app SMS verification (OTP).",
       summary: "Developer-friendly REST APIs for SMS OTP and document delivery. Integrate in a few lines of code with real-time webhooks.",
       uses: [
         "App SMS verification (OTP)",
@@ -185,7 +185,7 @@ const SITE_CONTENT = {
         { k: "Interface", v: "REST API / SMPP" },
         { k: "Main uses", v: "SMS verification (OTP), notifications, fax automation" },
         { k: "Callbacks", v: "Webhook supported" },
-        { k: "Track record", v: "5,000+ client deployments worldwide (all services)" },
+        { k: "Track record", v: "23 client deployments worldwide (all services)" },
         { k: "Support", v: "Sandbox, documentation and engineering support" }
       ]
     },
@@ -281,7 +281,7 @@ const SITE_CONTENT = {
       {
         code: "R-02",
         title: "Redundancy and monitoring",
-        desc: "850+ operator interconnections with redundant routing fail over automatically. Quality metrics monitored 24/365."
+        desc: "17 operator interconnections with redundant routing fail over automatically. Quality metrics monitored 24/365."
       },
       {
         code: "R-03",
@@ -320,7 +320,7 @@ const SITE_CONTENT = {
       { label: "Business", value: "General Telecom, Consulting" },
       { label: "Head office", value: "Startup - EV 160, Campus da Penteada, 9020-105 Funchal, Madeira, Portugal" },
       { label: "Data centers", value: "Funchal (Madeira), Nuremberg (Germany), Helsinki (Finland)" },
-      { label: "Track record", value: "5,000+ client companies worldwide" }
+      { label: "Track record", value: "23 client deployments worldwide" }
     ]
   },
 

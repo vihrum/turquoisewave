@@ -117,9 +117,10 @@ git push
 Сайт складається виключно зі статичних файлів (`.html`, `.css`, `.js`, `.svg`), тому його підтримує **будь-який хостинг у світі**:
 
 ### 1. Безкоштовно на GitHub Pages
-1. У вашому GitHub репозиторії перейдіть у **Settings** → **Pages**.
-2. У пункті **Build and deployment** виберіть джерело: **GitHub Actions** (робочий процес `.github/workflows/deploy.yml` уже налаштовано в проекті) або **Deploy from a branch** (`main` / root).
-3. Через 1-2 хвилини ваш сайт буде доступний за адресою: `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+Сайт уже опубліковано і доступний за адресою:
+👉 **https://vihrum.github.io/turquoisewave/**
+
+При кожному `git push` сайт автоматично оновлюється через GitHub Actions.
 
 ### 2. Безкоштовно на Netlify або Vercel
 - **Netlify**: перетягніть папку проекту у вікно `app.netlify.com/drop` — сайт опублікується за 5 секунд.
