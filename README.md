@@ -99,23 +99,15 @@ python3 -m http.server 8000
 ```bash
 cd /Users/i/Projects/WebSite
 
-# Ініціалізація git (якщо ще не зроблено)
-git init
+# Перевірити статус
+git status
 
-# Додавання всіх файлів
+# Додати зміни
 git add .
+git commit -m "Update site content"
 
-# Створення першого коміту
-git commit -m "Initial commit: Topaz website English edition"
-
-# Вкажіть гілку main
-git branch -M main
-
-# Підключіть ваш віддалений GitHub репозиторій (замініть YOUR_USERNAME та REPO_NAME):
-git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
-
-# Відправте код на GitHub:
-git push -u origin main
+# Відправити на GitHub
+git push
 ```
 
 ---
