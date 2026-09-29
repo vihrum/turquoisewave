@@ -1,6 +1,6 @@
-# Topaz Corporate Website (English Version)
+# Turquoise Wave Corporate Website (English Version)
 
-Чистий, адаптивний, оптимізований веб-сайт телекомунікаційної інфраструктури **Topaz** (англійська версія, збережена з [topaz.jp](https://topaz.jp/index)).
+Чистий, адаптивний, оптимізований веб-сайт телекомунікаційної інфраструктури **TURQUOISE WAVE, LDA** (Funchal, Madeira, Portugal | NIF: 516668951).
 
 Проект реалізований як сучасний статичний Single Page Application (SPA) без жодних зовнішніх збирачів (Webpack/Vite/Bun не потрібні). Він готовий до завантаження на GitHub та публікації на будь-якому власному хостингу.
 
@@ -18,7 +18,7 @@ WebSite/
 │   └── app.js               # Інтерактивність: меню, мобільна шторка, роутер сторінок, форма
 ├── assets/
 │   ├── favicon.svg          # Іконка сайту
-│   └── logo.svg             # Логотип Topaz
+│   └── logo.svg             # Логотип Turquoise Wave
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml       # Автоматичний деплой на GitHub Pages при пуші

@@ -1,25 +1,27 @@
 /**
  * ==============================================================================
- * TOPAZ WEBSITE CONTENT CONFIGURATION (English Version)
+ * TURQUOISE WAVE WEBSITE CONTENT CONFIGURATION (English Version)
  * ==============================================================================
- * You can edit any text, service description, specification, contact details,
- * or company data directly in this file without breaking the layout or styles!
+ * Official company data grounded in the Portuguese Commercial Registry Certificate:
+ * NIF/NIPC: 516668951 | TURQUOISE WAVE, LDA | Funchal, Madeira, Portugal
  */
 
 const SITE_CONTENT = {
   // Brand & Company Essentials
   brand: {
-    name: "Topaz",
-    tagline: "Dependable telecom for your business.",
-    established: "2020",
-    locations: "TOKYO · OSAKA · KYOTO · NUREMBERG · HELSINKI",
-    copyright: "© 2026 Topaz Inc. All Rights Reserved."
+    name: "Turquoise Wave",
+    legalName: "TURQUOISE WAVE, LDA",
+    nif: "516668951",
+    tagline: "VoIP Telecommunications & Cloud Infrastructure",
+    established: "2022",
+    locations: "FUNCHAL (MADEIRA) · PORTUGAL · EU",
+    copyright: "© 2026 TURQUOISE WAVE, LDA. All Rights Reserved."
   },
 
   // Navigation Links
   nav: {
     services: "Services",
-    whyTopaz: "Why Topaz",
+    whyUs: "Why Turquoise Wave",
     trackRecord: "Track Record",
     company: "Company",
     contactUs: "Contact us",
@@ -28,26 +30,26 @@ const SITE_CONTENT = {
 
   // Dropdown Menus Content
   menus: {
-    servicesHead: "TELECOM SERVICES",
-    servicesPromoText: "Our own infrastructure and direct routes — dependable quality.",
+    servicesHead: "TELECOM & VOIP SERVICES",
+    servicesPromoText: "Our own infrastructure and direct carrier routes — dependable quality.",
     servicesPromoLink: "See why clients choose us →",
     companyHead: "COMPANY",
     companyProfile: "Company Profile",
-    companyBlurb: "Our mission is to support our customers’ growth with dependable telecom infrastructure."
+    companyBlurb: "Our mission is to support our customers’ growth with dependable VoIP and telecom infrastructure."
   },
 
   // Hero Section
   hero: {
-    badge: "GLOBAL TELECOM — SINCE 2020",
+    badge: "GLOBAL VOIP & TELECOM — SINCE 2022",
     title: "Dependable telecom<br>for your business.",
-    subtitle: "Topaz Inc. delivers global communications infrastructure for enterprises — international voice, SMS, RCS and fax through to global SIM/eSIM — as a one-stop service. Our own data centers and redundant interconnections keep mission-critical communication running.",
+    subtitle: "Turquoise Wave, Lda. delivers global communications and VoIP infrastructure for enterprises — international voice, SMS, RCS and fax through to global SIM/eSIM — as a one-stop service. Redundant interconnections and carrier direct routes keep mission-critical communication running.",
     exploreBtn: "Explore services",
     contactBtn: "Contact us"
   },
 
   // Key Performance Indicators / Stats Bar
   stats: [
-    { value: "5,000", suffix: "+", label: "client companies worldwide" },
+    { value: "5,000", suffix: "+", label: "client deployments worldwide" },
     { value: "200", suffix: "+", label: "countries and regions for SMS" },
     { value: "850", suffix: "+", label: "interconnected operators" },
     { value: "24/365", suffix: "", label: "monitoring and support" }
@@ -58,7 +60,7 @@ const SITE_CONTENT = {
     step: "01",
     label: "SERVICES",
     title: "Telecom Services",
-    description: "Voice, messaging and fax through to global SIM/eSIM — enterprise communications as a one-stop service. Open any service page for features, specifications and use cases."
+    description: "VoIP, voice, messaging and fax through to global SIM/eSIM — enterprise communications as a one-stop service. Open any service page for features, specifications and use cases."
   },
 
   // Full Catalog of 8 Services
@@ -159,13 +161,13 @@ const SITE_CONTENT = {
         { k: "Delivery", v: "Cloud fax / API" },
         { k: "Data", v: "PDF and other electronic formats" },
         { k: "Integration", v: "REST API, core-system connection" },
-        { k: "For", v: "Enterprises in Japan and abroad" },
+        { k: "For", v: "Enterprises in Europe and worldwide" },
         { k: "Support", v: "24/365 monitoring" }
       ]
     },
     api: {
       slug: "api",
-      cat: "TOPAZ CLOUD SMS / FAX",
+      cat: "CLOUD SMS & FAX API",
       title: "SMS & Fax API",
       lead: "REST APIs you can integrate in a few lines of code — a dependable delivery platform provided by a company with 5,000+ client deployments worldwide, adopted above all for app SMS verification (OTP).",
       summary: "Developer-friendly REST APIs for SMS OTP and document delivery. Integrate in a few lines of code with real-time webhooks.",
@@ -192,7 +194,7 @@ const SITE_CONTENT = {
       slug: "rcs",
       cat: "RCS / RICH MESSAGING",
       title: "RCS API",
-      lead: "Available in 40+ countries including Japan. Rich, two-way customer communication with images, video and other media — while preserving your brand identity.",
+      lead: "Available in 40+ countries. Rich, two-way customer communication with images, video and other media — while preserving your brand identity.",
       summary: "Next-generation messaging across 40+ countries. Rich media, verified brand senders, two-way interactive buttons and automatic SMS fallback.",
       uses: [
         "Rich promotions and product guides",
@@ -200,13 +202,13 @@ const SITE_CONTENT = {
         "Verified critical notifications"
       ],
       features: [
-        { t: "Coverage in 40+ countries", d: "RCS delivery in more than 40 countries including Japan (+Message) — consistent rich messaging worldwide." },
+        { t: "Coverage in 40+ countries", d: "RCS delivery in more than 40 countries — consistent rich messaging worldwide." },
         { t: "Verified sender", d: "Display your logo, brand colors and a verification badge — preventing spoofing while preserving your brand." },
         { t: "Rich media, two-way dialogue", d: "Images, video, carousels and suggested-reply buttons. Receive customer replies and choices for true two-way communication." },
         { t: "SMS fallback", d: "Devices without RCS automatically receive SMS instead — richer messages without sacrificing reach." }
       ],
       specs: [
-        { k: "Coverage", v: "40+ countries including Japan" },
+        { k: "Coverage", v: "40+ countries" },
         { k: "Formats", v: "Text, images, video, carousels, buttons" },
         { k: "Sender", v: "Brand logo, verified sender badge" },
         { k: "Fallback", v: "Automatic SMS fallback supported" },
@@ -220,7 +222,7 @@ const SITE_CONTENT = {
       lead: "AI-powered automated voice response handles reservations and first-line inquiries 24/365 — consistent quality, no missed calls.",
       summary: "Generative AI voice response operating 24/365. Handles customer bookings and inquiry triage with natural dialogue over your existing phone numbers.",
       uses: [
-        "Restaurant and clinic reservations",
+        "Business and clinic reservations",
         "First-line inquiry handling",
         "After-hours and overflow calls"
       ],
@@ -266,16 +268,16 @@ const SITE_CONTENT = {
   },
 
   // Why Choose Us / Trust Section
-  whyTopaz: {
+  whyUs: {
     step: "02",
     label: "RELIABILITY",
-    title: "Why clients choose Topaz",
-    lead: "Communication must never stop. We manage everything from infrastructure to operations ourselves, supporting your business with solid, dependable quality.",
+    title: "Why clients choose Turquoise Wave",
+    lead: "Communication must never stop. We manage everything from infrastructure to operations, supporting your business with solid, dependable quality.",
     pillars: [
       {
         code: "R-01",
         title: "Our own infrastructure",
-        desc: "Operated on our own data centers in Tokyo, Osaka, Kyoto, Nuremberg and Helsinki — minimal external dependency, quality assured in-house."
+        desc: "Operated with high-availability European data center infrastructure, redundant routing and minimal external dependency — quality assured in-house."
       },
       {
         code: "R-02",
@@ -300,26 +302,31 @@ const SITE_CONTENT = {
     step: "03",
     label: "TRACK RECORD",
     title: "Track Record",
-    lead: "From TSE Prime–listed enterprises to growing businesses — trusted continuously for mission-critical verification and notifications.",
+    lead: "From prime-listed enterprises to growing businesses — trusted continuously for mission-critical verification, notifications and wholesale voice.",
     badges: [
-      "Adopters include TSE Prime–listed enterprises",
-      "Widely used for app SMS verification (OTP)",
-      "SMSOne — no development, same-day start"
+      "Adopters include Prime-listed enterprises & global MVNOs",
+      "Widely used for VoIP termination & SMS OTP verification",
+      "SMSOne & Cloud Fax — no development, same-day start"
     ]
   },
 
-  // Company Profile Section
+  // Company Profile Section (From Official Certificate)
   company: {
     step: "04",
     label: "COMPANY",
     title: "Company Profile",
     rows: [
-      { label: "Company name", value: "Topaz Inc." },
-      { label: "Founded", value: "July 2020" },
-      { label: "Business", value: "Telecommunications — International Voice / International SMS / SMSOne / International Fax / SMS & Fax APIs / RCS API / AI Voice (IVR) / Wholesale Global SIM & eSIM" },
-      { label: "Head office", value: "3F, Skyplaza Mall, 4-1-1, Yukarigaoka, Sakura-shi, Chiba JAPAN" },
-      { label: "Data centers", value: "Tokyo, Osaka, Kyoto, Nuremberg (Germany), Helsinki (Finland)" },
-      { label: "Track record", value: "5,000+ client companies worldwide (incl. TSE Prime–listed enterprises)" }
+      { label: "Company name (Firma)", value: "TURQUOISE WAVE, LDA" },
+      { label: "Tax ID (NIF / NIPC)", value: "516668951" },
+      { label: "Legal form", value: "Sociedade por Quotas (LDA / Private Limited Company)" },
+      { label: "Founded", value: "January 13, 2022" },
+      { label: "Registered office (Sede)", value: "Startup - EV 160, Campus da Penteada, 9020-105 Funchal, Ilha da Madeira, Portugal" },
+      { label: "Management (Gerência)", value: "Ihor Hodovanets (Gerente / Managing Director)" },
+      { label: "Primary Activity (CAE)", value: "61900-R4 — Outras atividades de telecomunicações (VoIP & Telecommunications)" },
+      { label: "Secondary Activities", value: "62100-R4 (Software Programming), 62201-R4 (IT Consulting), 73110-R4 (Internet Advertising & Services)" },
+      { label: "Share capital", value: "5,000.00 EUR" },
+      { label: "Official Registry", value: "Permanent Certificate Code: 2715-6555-4414 (Valid until 04/09/2030, Registo Comercial de Portugal)" },
+      { label: "Corporate purpose", value: "VoIP telecommunications, software development, website development and support, internet advertising, consulting on IT products and services" }
     ]
   },
 
@@ -385,7 +392,7 @@ const SITE_CONTENT = {
       head: "Before you write",
       items: [
         "We reply within two business days.",
-        "Case studies and client names are shared during business meetings.",
+        "Case studies and client references are shared during business meetings.",
         "Sandbox environments and API documentation are available."
       ]
     },
