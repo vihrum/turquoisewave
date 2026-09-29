@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topaz | Global Telecom Infrastructure for Enterprises</title>
+  <meta name="description" content="Topaz Inc. delivers global communications infrastructure for enterprises — international voice, SMS, RCS and fax through to global SIM/eSIM — as a one-stop service.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: IBM Plex Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <!-- Brand Logo -->
+        <a href="#top" class="brand-btn" aria-label="Topaz Home">
+          <span class="brand-mark"></span>
+          <span>Topaz</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="Main Navigation">
+          <button id="nav-services-btn" class="nav-link-btn" aria-expanded="false" aria-controls="panel-services">
+            Services <span class="nav-arrow">▼</span>
+          </button>
+          <a href="#trust" class="nav-link-btn">Why Topaz</a>
+          <a href="#results" class="nav-link-btn">Track Record</a>
+          <button id="nav-company-btn" class="nav-link-btn" aria-expanded="false" aria-controls="panel-company">
+            Company <span class="nav-arrow">▼</span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <!-- Contact CTA Button -->
+        <a href="#contact" class="btn-contact-header">Contact us</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         SERVICES MEGA-MENU DROPDOWN
+         ======================================================================= -->
+    <div id="panel-services" class="dropdown-panel" role="region" aria-label="Services dropdown menu">
+      <div class="dropdown-inner">
+        <div class="dropdown-promo">
+          <div>
+            <div class="dropdown-section-title">TELECOM SERVICES</div>
+            <p class="dropdown-promo-text">Our own infrastructure and direct routes — dependable quality.</p>
+          </div>
+          <a href="#trust" class="dropdown-promo-link">See why clients choose us →</a>
+        </div>
+        <div class="dropdown-content">
+          <div class="dropdown-section-title">GLOBAL TELECOM SERVICES</div>
+          <div class="dropdown-services-grid">
+            <a href="#service/voice" class="dropdown-service-card">
+              <div class="dropdown-service-cat">VOICE / WHOLESALE</div>
+              <div class="dropdown-service-title">International Voice</div>
+            </a>
+            <a href="#service/sms" class="dropdown-service-card">
+              <div class="dropdown-service-cat">SMS / WHOLESALE SMS</div>
+              <div class="dropdown-service-title">International SMS</div>
+            </a>
+            <a href="#service/smsone" class="dropdown-service-card">
+              <div class="dropdown-service-cat">SMS PLATFORM</div>
+              <div class="dropdown-service-title">SMSOne</div>
+            </a>
+            <a href="#service/fax" class="dropdown-service-card">
+              <div class="dropdown-service-cat">FAX / WHOLESALE FAX API</div>
+              <div class="dropdown-service-title">International Fax</div>
+            </a>
+            <a href="#service/api" class="dropdown-service-card">
+              <div class="dropdown-service-cat">TOPAZ CLOUD SMS / FAX</div>
+              <div class="dropdown-service-title">SMS &amp; Fax API</div>
+            </a>
+            <a href="#service/rcs" class="dropdown-service-card">
+              <div class="dropdown-service-cat">RCS / RICH MESSAGING</div>
+              <div class="dropdown-service-title">RCS API</div>
+            </a>
+            <a href="#service/ivr" class="dropdown-service-card">
+              <div class="dropdown-service-cat">AI VOICE / IVR</div>
+              <div class="dropdown-service-title">AI Voice (IVR)</div>
+            </a>
+            <a href="#service/sim" class="dropdown-service-card">
+              <div class="dropdown-service-cat">WHOLESALE GLOBAL SIM / eSIM</div>
+              <div class="dropdown-service-title">Wholesale Global SIM / eSIM</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         COMPANY DROPDOWN
+         ======================================================================= -->
+    <div id="panel-company" class="dropdown-panel" role="region" aria-label="Company dropdown menu">
+      <div class="dropdown-inner">
+        <div class="dropdown-promo">
+          <div>
+            <div class="dropdown-section-title">COMPANY</div>
+            <p class="dropdown-promo-text">Our mission is to support our customers’ growth with dependable telecom infrastructure.</p>
+          </div>
+          <a href="#contact" class="dropdown-promo-link">Contact our team →</a>
+        </div>
+        <div class="dropdown-content">
+          <div class="dropdown-section-title">OVERVIEW</div>
+          <div class="dropdown-company-list">
+            <a href="#company" class="dropdown-company-link">Company Profile &amp; Data Centers</a>
+            <a href="#trust" class="dropdown-company-link">Reliability &amp; Infrastructure</a>
+            <a href="#results" class="dropdown-company-link">Global Track Record</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MOBILE DRAWER OVERLAY
+       ========================================================================= -->
+  <div id="drawer-overlay" class="drawer-overlay">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="brand-btn">
+          <span class="brand-mark"></span>
+          <span>Topaz</span>
+        </div>
+        <button id="drawer-close" class="drawer-close-btn" aria-label="Close menu">✕</button>
+      </div>
+      <div class="drawer-body">
+        <div class="drawer-section-title">NAVIGATION</div>
+        <a href="#top" class="drawer-nav-item">Home</a>
+        <a href="#trust" class="drawer-nav-item">Why Topaz</a>
+        <a href="#results" class="drawer-nav-item">Track Record</a>
+        <a href="#company" class="drawer-nav-item">Company Profile</a>
+        <a href="#contact" class="drawer-nav-item" style="color:var(--tc);font-weight:600;">Contact us</a>
+
+        <div class="drawer-section-title" style="margin-top:16px;">TELECOM SERVICES</div>
+        <a href="#service/voice" class="drawer-service-item">
+          <div class="drawer-service-cat">VOICE / WHOLESALE</div>
+          <div class="drawer-service-name">International Voice</div>
+        </a>
+        <a href="#service/sms" class="drawer-service-item">
+          <div class="drawer-service-cat">SMS / WHOLESALE SMS</div>
+          <div class="drawer-service-name">International SMS</div>
+        </a>
+        <a href="#service/smsone" class="drawer-service-item">
+          <div class="drawer-service-cat">SMS PLATFORM</div>
+          <div class="drawer-service-name">SMSOne</div>
+        </a>
+        <a href="#service/fax" class="drawer-service-item">
+          <div class="drawer-service-cat">FAX / WHOLESALE FAX API</div>
+          <div class="drawer-service-name">International Fax</div>
+        </a>
+        <a href="#service/api" class="drawer-service-item">
+          <div class="drawer-service-cat">TOPAZ CLOUD SMS / FAX</div>
+          <div class="drawer-service-name">SMS &amp; Fax API</div>
+        </a>
+        <a href="#service/rcs" class="drawer-service-item">
+          <div class="drawer-service-cat">RCS / RICH MESSAGING</div>
+          <div class="drawer-service-name">RCS API</div>
+        </a>
+        <a href="#service/ivr" class="drawer-service-item">
+          <div class="drawer-service-cat">AI VOICE / IVR</div>
+          <div class="drawer-service-name">AI Voice (IVR)</div>
+        </a>
+        <a href="#service/sim" class="drawer-service-item">
+          <div class="drawer-service-cat">WHOLESALE GLOBAL SIM / eSIM</div>
+          <div class="drawer-service-name">Wholesale Global SIM / eSIM</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         VIEW 1: HOME PAGE VIEW
+         ======================================================================= -->
+    <div id="home-view">
+
+      <!-- =====================================================================
+           HERO SECTION
+           ===================================================================== -->
+      <section class="hero-section" id="top">
+        <div class="hero-geom-1"></div>
+        <div class="hero-geom-2"></div>
+        <div class="container hero-inner">
+          <div class="hero-badge">GLOBAL TELECOM — SINCE 2020</div>
+          <h1 class="hero-title">Dependable telecom<br>for your business.</h1>
+          <p class="hero-subtitle">
+            Topaz Inc. delivers global communications infrastructure for enterprises — international voice, SMS, RCS and fax through to global SIM/eSIM — as a one-stop service. Our own data centers and redundant interconnections keep mission-critical communication running.
+          </p>
+          <div class="hero-actions">
+            <a href="#telecom" class="btn-primary">Explore services →</a>
+            <a href="#contact" class="btn-outline">Contact us</a>
+          </div>
+          <div class="hero-locations-bar">
+            <span>RELIABLE TELECOM</span>
+            <span>SINCE 2020</span>
+            <span>TOKYO · OSAKA · KYOTO · NUREMBERG · HELSINKI</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           STATS BAR (KPIS)
+           ===================================================================== -->
+      <section class="stats-bar">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-val">5,000<span class="stat-suffix">+</span></div>
+              <div class="stat-lbl">client companies worldwide</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val">200<span class="stat-suffix">+</span></div>
+              <div class="stat-lbl">countries and regions for SMS</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val">850<span class="stat-suffix">+</span></div>
+              <div class="stat-lbl">interconnected operators</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val">24/365</div>
+              <div class="stat-lbl">monitoring and support</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SECTION 01: TELECOM SERVICES
+           ===================================================================== -->
+      <section class="section-pad" id="telecom">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-step">01 SERVICES</div>
+            <h2 class="section-title">Telecom Services</h2>
+            <p class="section-lead">
+              Voice, messaging and fax through to global SIM/eSIM — enterprise communications as a one-stop service. Open any service page for features, specifications and use cases.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <!-- 1. Voice -->
+            <a href="#service/voice" class="service-card">
+              <div>
+                <div class="service-card-cat">VOICE / WHOLESALE</div>
+                <h3 class="service-card-title">International Voice</h3>
+                <p class="service-card-desc">High-quality international voice via direct carrier interconnection, available wholesale to enterprises and carriers.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">Direct routes</span>
+                  <span class="service-tag">Redundant routing</span>
+                  <span class="service-tag">24/365 monitoring</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 2. SMS -->
+            <a href="#service/sms" class="service-card">
+              <div>
+                <div class="service-card-cat">SMS / WHOLESALE SMS</div>
+                <h3 class="service-card-title">International SMS</h3>
+                <p class="service-card-desc">Direct delivery to 200+ countries and regions over 850+ operator routes. Reliable, low-latency messaging for enterprise OTP and notifications.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">200+ countries</span>
+                  <span class="service-tag">850+ operators</span>
+                  <span class="service-tag">OTP verification</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 3. SMSOne -->
+            <a href="#service/smsone" class="service-card">
+              <div>
+                <div class="service-card-cat">SMS PLATFORM</div>
+                <h3 class="service-card-title">SMSOne</h3>
+                <p class="service-card-desc">Zero-development SMS web console. Bulk, individual and scheduled sends, short-URL click tracking and team permissions.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">Web console</span>
+                  <span class="service-tag">Bulk &amp; scheduled</span>
+                  <span class="service-tag">No dev required</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 4. Fax -->
+            <a href="#service/fax" class="service-card">
+              <div>
+                <div class="service-card-cat">FAX / WHOLESALE FAX API</div>
+                <h3 class="service-card-title">International Fax</h3>
+                <p class="service-card-desc">Cloud-native fax API for mission-critical order processing and billing. Send and receive PDF documents with partners worldwide paperlessly.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">Paperless PDF</span>
+                  <span class="service-tag">REST API</span>
+                  <span class="service-tag">Core system sync</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 5. API -->
+            <a href="#service/api" class="service-card">
+              <div>
+                <div class="service-card-cat">TOPAZ CLOUD SMS / FAX</div>
+                <h3 class="service-card-title">SMS &amp; Fax API</h3>
+                <p class="service-card-desc">Developer-friendly REST APIs for SMS OTP and document delivery. Integrate in a few lines of code with real-time webhooks.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">REST / SMPP</span>
+                  <span class="service-tag">Webhook callbacks</span>
+                  <span class="service-tag">Sandbox included</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 6. RCS -->
+            <a href="#service/rcs" class="service-card">
+              <div>
+                <div class="service-card-cat">RCS / RICH MESSAGING</div>
+                <h3 class="service-card-title">RCS API</h3>
+                <p class="service-card-desc">Next-generation messaging across 40+ countries. Rich media, verified brand senders, two-way interactive buttons and automatic SMS fallback.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">40+ countries</span>
+                  <span class="service-tag">Verified badge</span>
+                  <span class="service-tag">SMS fallback</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 7. IVR -->
+            <a href="#service/ivr" class="service-card">
+              <div>
+                <div class="service-card-cat">AI VOICE / IVR</div>
+                <h3 class="service-card-title">AI Voice (IVR)</h3>
+                <p class="service-card-desc">Generative AI voice response operating 24/365. Handles customer bookings and inquiry triage with natural dialogue over your existing phone numbers.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">24/365 triage</span>
+                  <span class="service-tag">Natural voice</span>
+                  <span class="service-tag">Keep existing #</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+
+            <!-- 8. SIM -->
+            <a href="#service/sim" class="service-card">
+              <div>
+                <div class="service-card-cat">WHOLESALE GLOBAL SIM / eSIM</div>
+                <h3 class="service-card-title">Wholesale Global SIM / eSIM</h3>
+                <p class="service-card-desc">Wholesale roaming data and IMSI profiles across 200 countries. White-label SPN customization, custom USIM manufacturing and eUICC/SGP.32 ready.</p>
+                <div class="service-card-tags">
+                  <span class="service-tag">200 countries</span>
+                  <span class="service-tag">Custom SPN</span>
+                  <span class="service-tag">eUICC / SGP.32</span>
+                </div>
+              </div>
+              <div class="service-card-action">View details →</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SECTION 02: WHY TOPAZ (RELIABILITY & TRUST)
+           ===================================================================== -->
+      <section class="section-pad" id="trust" style="background:#fafbfc;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-step">02 RELIABILITY</div>
+            <h2 class="section-title">Why clients choose Topaz</h2>
+            <p class="section-lead">
+              Communication must never stop. We manage everything from infrastructure to operations ourselves, supporting your business with solid, dependable quality.
+            </p>
+          </div>
+
+          <div class="trust-grid">
+            <div class="trust-card">
+              <div class="trust-card-code">R-01</div>
+              <h3 class="trust-card-title">Our own infrastructure</h3>
+              <p class="trust-card-desc">Operated on our own data centers in Tokyo, Osaka, Kyoto, Nuremberg and Helsinki — minimal external dependency, quality assured in-house.</p>
+            </div>
+            <div class="trust-card">
+              <div class="trust-card-code">R-02</div>
+              <h3 class="trust-card-title">Redundancy and monitoring</h3>
+              <p class="trust-card-desc">850+ operator interconnections with redundant routing fail over automatically. Quality metrics monitored 24/365.</p>
+            </div>
+            <div class="trust-card">
+              <div class="trust-card-code">R-03</div>
+              <h3 class="trust-card-title">Security</h3>
+              <p class="trust-card-desc">Encrypted communication, access control and audit logs — designed security-first as a platform that carries OTP and other sensitive traffic.</p>
+            </div>
+            <div class="trust-card">
+              <div class="trust-card-code">R-04</div>
+              <h3 class="trust-card-title">Support at every step</h3>
+              <p class="trust-card-desc">From requirements and sandbox testing to API integration and post-launch monitoring — a dedicated team stays with you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SECTION 03: TRACK RECORD
+           ===================================================================== -->
+      <section class="section-pad results-section" id="results">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-step">03 TRACK RECORD</div>
+            <h2 class="section-title">Track Record</h2>
+            <p class="section-lead">
+              From TSE Prime–listed enterprises to growing businesses — trusted continuously for mission-critical verification and notifications.
+            </p>
+          </div>
+
+          <div class="results-badges">
+            <div class="result-badge-item">
+              <span class="result-badge-dot"></span>
+              <span>Adopters include TSE Prime–listed enterprises</span>
+            </div>
+            <div class="result-badge-item">
+              <span class="result-badge-dot"></span>
+              <span>Widely used for app SMS verification (OTP)</span>
+            </div>
+            <div class="result-badge-item">
+              <span class="result-badge-dot"></span>
+              <span>SMSOne — no development, same-day start</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SECTION 04: COMPANY PROFILE
+           ===================================================================== -->
+      <section class="section-pad" id="company">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-step">04 COMPANY</div>
+            <h2 class="section-title">Company Profile</h2>
+          </div>
+
+          <div class="company-table">
+            <div class="company-row">
+              <div class="company-key">Company name</div>
+              <div class="company-val">Topaz Inc.</div>
+            </div>
+            <div class="company-row">
+              <div class="company-key">Founded</div>
+              <div class="company-val">July 2020</div>
+            </div>
+            <div class="company-row">
+              <div class="company-key">Business</div>
+              <div class="company-val">Telecommunications — International Voice / International SMS / SMSOne / International Fax / SMS &amp; Fax APIs / RCS API / AI Voice (IVR) / Wholesale Global SIM &amp; eSIM</div>
+            </div>
+            <div class="company-row">
+              <div class="company-key">Head office</div>
+              <div class="company-val">3F, Skyplaza Mall, 4-1-1, Yukarigaoka, Sakura-shi, Chiba JAPAN</div>
+            </div>
+            <div class="company-row">
+              <div class="company-key">Data centers</div>
+              <div class="company-val">Tokyo, Osaka, Kyoto, Nuremberg (Germany), Helsinki (Finland)</div>
+            </div>
+            <div class="company-row">
+              <div class="company-key">Track record</div>
+              <div class="company-val">5,000+ client companies worldwide (incl. TSE Prime–listed enterprises)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SECTION 05: CALL TO ACTION BANNER (BOTTOM)
+           ===================================================================== -->
+      <section class="cta-banner-section">
+        <div class="container">
+          <h2 class="cta-banner-title">Dependable telecom,<br>for your business.</h2>
+          <p class="cta-banner-lead">Adoption, wholesale, API integration, quotes — we are happy to help.</p>
+          <a href="#contact" class="btn-primary" style="display:inline-flex;">Go to contact form →</a>
+        </div>
+      </section>
+
+    </div><!-- End Home View -->
+
+
+    <!-- =======================================================================
+         VIEW 2: SERVICE DETAIL VIEW (Dynamically Populated)
+         ======================================================================= -->
+    <div id="detail-view" class="detail-view">
+
+      <!-- Breadcrumbs -->
+      <div class="breadcrumbs-bar">
+        <div class="container breadcrumbs-inner">
+          <a href="#top" class="breadcrumb-link">Home</a>
+          <span>/</span>
+          <a href="#telecom" class="breadcrumb-link">Telecom Services</a>
+          <span>/</span>
+          <span id="detail-crumb-current" class="breadcrumb-current">Service Detail</span>
+        </div>
+      </div>
+
+      <!-- Detail Hero -->
+      <section class="detail-hero">
+        <div class="container">
+          <div id="detail-cat-badge" class="detail-cat-badge">CATEGORY</div>
+          <h1 id="detail-title" class="detail-title">Service Title</h1>
+          <p id="detail-lead" class="detail-lead">Service lead text description goes here.</p>
+        </div>
+      </section>
+
+      <!-- Detail Body -->
+      <section class="section-pad">
+        <div class="container">
+
+          <!-- Key Use Cases -->
+          <div class="detail-uses-box">
+            <div class="detail-uses-title">KEY USE CASES</div>
+            <ul id="detail-uses-list" class="detail-uses-list">
+              <!-- Dynamically populated -->
+            </ul>
+          </div>
+
+          <!-- Features Grid -->
+          <div class="section-head" style="margin-bottom:36px;">
+            <div class="section-step">FEATURES</div>
+            <h2 class="section-title" style="font-size:26px;">Key Capabilities</h2>
+          </div>
+          <div id="detail-features-grid" class="features-grid">
+            <!-- Dynamically populated -->
+          </div>
+
+          <!-- Specifications Table -->
+          <div class="section-head" style="margin-bottom:36px;">
+            <div class="section-step">SPECIFICATIONS</div>
+            <h2 class="section-title" style="font-size:26px;">Technical Specifications</h2>
+          </div>
+          <div id="detail-specs-table" class="specs-table">
+            <!-- Dynamically populated -->
+          </div>
+
+          <!-- Detail CTA Box -->
+          <div class="detail-cta-box">
+            <div>
+              <h3 style="font-size:22px;font-weight:600;color:var(--txt);margin-bottom:8px;">Talk to us about this service</h3>
+              <p style="font-size:14.5px;color:var(--txt-muted);">Adoption, quotes, technical specifications — we are happy to help.</p>
+            </div>
+            <button id="detail-cta-btn" class="btn-primary">Go to contact form →</button>
+          </div>
+
+          <div style="margin-top:40px;text-align:right;">
+            <a href="#top" class="back-to-top-btn">Back to top ↑</a>
+          </div>
+
+        </div>
+      </section>
+    </div><!-- End Detail View -->
+
+
+    <!-- =======================================================================
+         VIEW 3: CONTACT FORM VIEW
+         ======================================================================= -->
+    <div id="contact-view" class="contact-view">
+
+      <!-- Breadcrumbs -->
+      <div class="breadcrumbs-bar">
+        <div class="container breadcrumbs-inner">
+          <a href="#top" class="breadcrumb-link">Home</a>
+          <span>/</span>
+          <span class="breadcrumb-current">Contact us</span>
+        </div>
+      </div>
+
+      <!-- Contact Hero -->
+      <section class="contact-hero">
+        <div class="container">
+          <div style="font-size:12px;letter-spacing:.2em;font-weight:600;color:var(--tc);margin-bottom:16px;">CONTACT</div>
+          <h1 style="font-size:clamp(32px, 3.8vw, 50px);font-weight:600;line-height:1.3;margin-bottom:16px;">Contact us</h1>
+          <p style="max-width:700px;font-size:15px;line-height:1.9;color:var(--txt-light);">
+            Adoption, wholesale, API integration, quotes — send us your inquiry below and our team will reply within two business days.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Form Container -->
+      <section class="container">
+        <div id="contact-form-container" class="contact-layout">
+
+          <!-- Left: Form -->
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="f-type" class="form-label">
+                Inquiry type <span class="badge-req">Required</span>
+              </label>
+              <select id="f-type" name="inquiry_type" class="form-select" required>
+                <option value="Service adoption">Service adoption</option>
+                <option value="Wholesale inquiry">Wholesale inquiry</option>
+                <option value="API integration">API integration</option>
+                <option value="Quotation request">Quotation request</option>
+                <option value="Technical verification">Technical verification</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="f-service" class="form-label">
+                Target service <span class="badge-opt">Optional</span>
+              </label>
+              <select id="f-service" name="service" class="form-select">
+                <option value="">General inquiry</option>
+                <option value="International Voice">International Voice</option>
+                <option value="International SMS">International SMS</option>
+                <option value="SMSOne">SMSOne</option>
+                <option value="International Fax">International Fax</option>
+                <option value="SMS & Fax API">SMS &amp; Fax API</option>
+                <option value="RCS API">RCS API</option>
+                <option value="AI Voice (IVR)">AI Voice (IVR)</option>
+                <option value="Wholesale Global SIM / eSIM">Wholesale Global SIM / eSIM</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="f-company" class="form-label">
+                Company <span class="badge-req">Required</span>
+              </label>
+              <input type="text" id="f-company" name="company" class="form-input" placeholder="e.g. Acme Corporation" required>
+            </div>
+
+            <div class="form-group">
+              <label for="f-dept" class="form-label">
+                Department <span class="badge-opt">Optional</span>
+              </label>
+              <input type="text" id="f-dept" name="department" class="form-input" placeholder="e.g. Telecommunications &amp; Infrastructure">
+            </div>
+
+            <div class="form-group">
+              <label for="f-name" class="form-label">
+                Name <span class="badge-req">Required</span>
+              </label>
+              <input type="text" id="f-name" name="name" class="form-input" placeholder="e.g. Alex Smith" required>
+            </div>
+
+            <div class="form-group">
+              <label for="f-email" class="form-label">
+                Email address <span class="badge-req">Required</span>
+              </label>
+              <input type="email" id="f-email" name="email" class="form-input" placeholder="alex@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="f-phone" class="form-label">
+                Phone number <span class="badge-opt">Optional</span>
+              </label>
+              <input type="tel" id="f-phone" name="phone" class="form-input" placeholder="+1 (555) 000-0000">
+            </div>
+
+            <div class="form-group">
+              <label for="f-msg" class="form-label">
+                Message <span class="badge-req">Required</span>
+              </label>
+              <textarea id="f-msg" name="message" class="form-textarea" placeholder="Timeline, expected volumes, preferred interface — anything you can share helps." required></textarea>
+            </div>
+
+            <div class="form-checkbox-row">
+              <input type="checkbox" id="f-agree" name="agree" required>
+              <label for="f-agree" style="cursor:pointer;">I agree to the handling of my personal information.</label>
+            </div>
+
+            <button type="submit" class="btn-primary" style="padding:14px 44px;font-size:15px;">Submit Inquiry</button>
+          </form>
+
+          <!-- Right: Helpful Aside -->
+          <div class="form-aside-box">
+            <h3 class="aside-title">Before you write</h3>
+            <ul class="aside-list">
+              <li class="aside-item">We reply within two business days.</li>
+              <li class="aside-item">Case studies and client names are shared during business meetings.</li>
+              <li class="aside-item">Sandbox environments and API documentation are available.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Thank You State Card -->
+        <div id="thanks-card" class="thanks-card">
+          <div class="thanks-icon">✓</div>
+          <h2 style="font-size:28px;font-weight:600;margin-bottom:12px;">Your inquiry has been received</h2>
+          <p style="font-size:15.5px;color:var(--txt-muted);max-width:540px;margin:0 auto 32px;line-height:1.7;">
+            We will review your message and get back to you within two business days.
+          </p>
+          <button id="thanks-back-btn" class="btn-primary">Back to home</button>
+        </div>
+      </section>
+
+    </div><!-- End Contact View -->
+
+  </main>
+
+  <!-- =========================================================================
+       SITE FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand column -->
+        <div>
+          <div class="footer-brand-title">
+            <span class="brand-mark"></span>
+            <span>Topaz</span>
+          </div>
+          <p class="footer-slogan">Dependable telecom for your business.</p>
+          <div class="footer-locations">TOKYO · OSAKA · KYOTO · NUREMBERG · HELSINKI</div>
+        </div>
+
+        <!-- Services links column -->
+        <div>
+          <div class="footer-col-title">TELECOM SERVICES</div>
+          <ul class="footer-nav-list">
+            <li><a href="#service/voice">International Voice</a></li>
+            <li><a href="#service/sms">International SMS</a></li>
+            <li><a href="#service/smsone">SMSOne</a></li>
+            <li><a href="#service/fax">International Fax</a></li>
+            <li><a href="#service/api">SMS &amp; Fax API</a></li>
+            <li><a href="#service/rcs">RCS API</a></li>
+            <li><a href="#service/ivr">AI Voice (IVR)</a></li>
+            <li><a href="#service/sim">Wholesale Global SIM / eSIM</a></li>
+          </ul>
+        </div>
+
+        <!-- Company links column -->
+        <div>
+          <div class="footer-col-title">COMPANY</div>
+          <ul class="footer-nav-list">
+            <li><a href="#company">Company Profile</a></li>
+            <li><a href="#trust">Why Topaz</a></li>
+            <li><a href="#results">Track Record</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Topaz Inc. All Rights Reserved.</div>
+        <a href="#top" class="back-to-top-btn">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
