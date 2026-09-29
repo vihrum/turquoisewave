@@ -10,12 +10,11 @@ const SITE_CONTENT = {
   // Brand & Company Essentials
   brand: {
     name: "Turquoise Wave",
-    legalName: "TURQUOISE WAVE, LDA",
-    nif: "516668951",
-    tagline: "VoIP Telecommunications & Cloud Infrastructure",
+    legalName: "Turquoise Wave, LDA",
+    tagline: "Dependable telecom for your business.",
     established: "2022",
-    locations: "FUNCHAL (MADEIRA) · PORTUGAL · EU",
-    copyright: "© 2026 TURQUOISE WAVE, LDA. All Rights Reserved."
+    locations: "FUNCHAL (MADEIRA) · NUREMBERG · HELSINKI",
+    copyright: "© 2026 Turquoise Wave, LDA. All Rights Reserved."
   },
 
   // Navigation Links
@@ -277,7 +276,7 @@ const SITE_CONTENT = {
       {
         code: "R-01",
         title: "Our own infrastructure",
-        desc: "Operated with high-availability European data center infrastructure, redundant routing and minimal external dependency — quality assured in-house."
+        desc: "Operated on data centers in Funchal (Madeira), Nuremberg and Helsinki — minimal external dependency, quality assured in-house."
       },
       {
         code: "R-02",
@@ -310,23 +309,18 @@ const SITE_CONTENT = {
     ]
   },
 
-  // Company Profile Section (From Official Certificate)
+  // Company Profile Section
   company: {
     step: "04",
     label: "COMPANY",
     title: "Company Profile",
     rows: [
-      { label: "Company name (Firma)", value: "TURQUOISE WAVE, LDA" },
-      { label: "Tax ID (NIF / NIPC)", value: "516668951" },
-      { label: "Legal form", value: "Sociedade por Quotas (LDA / Private Limited Company)" },
-      { label: "Founded", value: "January 13, 2022" },
-      { label: "Registered office (Sede)", value: "Startup - EV 160, Campus da Penteada, 9020-105 Funchal, Ilha da Madeira, Portugal" },
-      { label: "Management (Gerência)", value: "Ihor Hodovanets (Gerente / Managing Director)" },
-      { label: "Primary Activity (CAE)", value: "61900-R4 — Outras atividades de telecomunicações (VoIP & Telecommunications)" },
-      { label: "Secondary Activities", value: "62100-R4 (Software Programming), 62201-R4 (IT Consulting), 73110-R4 (Internet Advertising & Services)" },
-      { label: "Share capital", value: "5,000.00 EUR" },
-      { label: "Official Registry", value: "Permanent Certificate Code: 2715-6555-4414 (Valid until 04/09/2030, Registo Comercial de Portugal)" },
-      { label: "Corporate purpose", value: "VoIP telecommunications, software development, website development and support, internet advertising, consulting on IT products and services" }
+      { label: "Company name", value: "Turquoise Wave, LDA" },
+      { label: "Founded", value: "January 2022" },
+      { label: "Business", value: "General Telecom, Consulting" },
+      { label: "Head office", value: "Startup - EV 160, Campus da Penteada, 9020-105 Funchal, Madeira, Portugal" },
+      { label: "Data centers", value: "Funchal (Madeira), Nuremberg (Germany), Helsinki (Finland)" },
+      { label: "Track record", value: "5,000+ client companies worldwide" }
     ]
   },
 
